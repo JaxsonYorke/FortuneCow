@@ -7,9 +7,6 @@ const { create } = require("node:domain");
 const client = new Client({
   intents: [
     IntentsBitField.Flags.Guilds,
-    IntentsBitField.Flags.GuildMessages,
-    IntentsBitField.Flags.GuildMembers,
-    IntentsBitField.Flags.MessageContent,
   ],
 });
 
